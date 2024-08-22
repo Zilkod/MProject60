@@ -1,0 +1,72 @@
+{
+  "abyss-color-theme": {
+    "id": "abyss-color-theme",
+    "path": "abyss-color-theme.json",
+    "label": "Abyss"
+  },
+  "Default Dark+": {
+    "id": "Default Dark+",
+    "path": "dark_plus.json",
+    "label": "Dark+ (default dark)"
+  },
+  "Default Light+": {
+    "id": "Default Light+",
+    "path": "light_plus.json",
+    "label": "Light+ (default light)"
+  },
+  "Visual Studio Dark": {
+    "id": "Visual Studio Dark",
+    "path": "dark_vs.json",
+    "label": "Dark (Visual Studio)"
+  },
+  "Visual Studio Light": {
+    "id": "Visual Studio Light",
+    "path": "light_vs.json",
+    "label": "Light (Visual Studio)"
+  },
+  "Default High Contrast": {
+    "id": "Default High Contrast",
+    "path": "hc_black.json",
+    "label": "High Contrast"
+  },
+  "kimbie-dark-color-theme": {
+    "id": "kimbie-dark-color-theme",
+    "path": "kimbie-dark-color-theme.json",
+    "label": "Kimbie Dark"
+  },
+  "dimmed-monokai-color-theme": {
+    "id": "dimmed-monokai-color-theme",
+    "path": "dimmed-monokai-color-theme.json",
+    "label": "Monokai Dimmed"
+  },
+  "monokai-color-theme": {
+    "id": "monokai-color-theme",
+    "path": "monokai-color-theme.json",
+    "label": "Monokai"
+  },
+  "quietlight-color-theme": {
+    "id": "quietlight-color-theme",
+    "path": "quietlight-color-theme.json",
+    "label": "Quiet Light"
+  },
+  "Red-color-theme": {
+    "id": "Red-color-theme",
+    "path": "Red-color-theme.json",
+    "label": "Red"
+  },
+  "solarized-dark-color-theme": {
+    "id": "solarized-dark-color-theme",
+    "path": "solarized-dark-color-theme.json",
+    "label": "Solarized Dark"
+  },
+  "solarized-light-color-theme": {
+    "id": "solarized-light-color-theme",
+    "path": "solarized-light-color-theme.json",
+    "label": "Solarized Light"
+  },
+  "tomorrow-night-blue-theme": {
+    "id": "tomorrow-night-blue-theme",
+    "path": "tomorrow-night-blue-theme.json",
+    "label": "Tomorrow Night Blue"
+  }
+}

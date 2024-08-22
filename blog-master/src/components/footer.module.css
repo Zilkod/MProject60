@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
+
+.footer__icon {
+  font-size: 1em;
+  color: white;
+  display: inline-block;
+  text-align: right;
+  margin-left: 0.75rem;
+  margin-top: 0;
+  padding: 0.25rem;
+  box-shadow: none;
+}
+
+.footer__icon:hover,
+.footer__icon:active,
+.footer__icon:focus {
+  background: white;
+  color: black;
+}

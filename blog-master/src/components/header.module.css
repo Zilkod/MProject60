@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
+
+.header {
+  color: white;
+  background-color: black;
+}
+
+.header__wrap {
+  align-items: baseline;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "a b";
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+.header__wrap__link {
+  text-decoration: none;
+  box-shadow: none;
+}
+.header__nav {
+  font-size: 1.25rem;
+  margin-top: 0;
+  text-align: right;
+  color: white;
+}
+
+.main_icon {
+  grid-area: a;
+  display: inline-block;
+  vertical-align: -10%;
+  margin-right: 10px;
+  text-align: left;
+  color: red;
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+
+.header__title {
+  display: inline-block;
+  font-family: "VT323", monospace;
+  font-size: 2.3em;
+  color: white;
+}
+
+.hidden_question,
+.hidden_tags,
+.hidden_python {
+  display: none;
+}
+
+@media (max-width: 600px) and (min-width: 201px) {
+  .header__title {
+    font-size: 1.7em;
+  }
+
+  .main_icon {
+    font-size: 1.4rem;
+  }
+
+  .hidden_text {
+    display: none;
+  }
+
+  .hidden_question {
+    display: block;
+    color: orange;
+  }
+
+  .hidden_python {
+    display: block;
+    color: white;
+  }
+
+  .hidden_tags {
+    display: block;
+    color: white;
+  }
+}
+
+.header__link {
+  color: white;
+  display: inline-block;
+  text-align: right;
+  margin-left: 0.75rem;
+  margin-top: 0;
+  padding: 0.25rem;
+  box-shadow: none;
+}
+.sparkling_tellus {
+  background-image: url(https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif);
+}
+
+.sparkling_tellus:hover {
+  background-image: none !important;
+}
+.header__link:hover,
+.header__link:active,
+.header__link:focus {
+  background: white;
+  color: black;
+}
+/*not working for some bloody reason
+*/
+#orange__text {
+  color: orange;
+}
+
+.orange__span {
+  color: orange;
+}

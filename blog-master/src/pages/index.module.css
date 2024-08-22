@@ -1,0 +1,156 @@
+.tags__container {
+  font-size: 1.3em;
+  font-family: "VT323", monospace;
+  font-stretch: ultra-expanded;
+  text-decoration: none;
+}
+
+.tags__container > p {
+  float: left;
+}
+
+.tags__container > ul > li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  padding-left: 2%;
+  margin-left: 0;
+}
+
+.tags__container > ul > li > a {
+  color: darkorange;
+  box-shadow: none;
+  margin-left: 0;
+}
+
+code {
+  font-size: 0.9em;
+  color: white;
+  background: #272822;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  line-height: 1.5rem;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  background: inherit;
+  padding: inherit;
+  margin: inherit;
+  border-radius: inherit;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+/*data language tags, borrowed from @gagan0723
+*/
+pre:not([data-language=""]) {
+  position: relative;
+  padding-top: 20px;
+}
+
+pre:not([data-language=""])::before {
+  border-radius: 0 0 6px 6px;
+  color: #000;
+  font-size: 0.8rem;
+  letter-spacing: 0.075em;
+  line-height: 1;
+  padding: 0.25rem 0.5rem;
+  position: absolute;
+  left: 1.5rem;
+  text-align: right;
+  text-transform: uppercase;
+  top: 0;
+}
+pre[data-language="cpp"]::before {
+  content: "c++";
+  background: #61dafb;
+}
+
+pre[data-language="c"]::before {
+  content: "c";
+  background: rgb(194, 247, 114);
+}
+pre[data-language="assembler"]::before {
+  content: "assembler";
+  background: rgb(252, 219, 224);
+}
+pre[data-language="go"]::before {
+  content: "Go";
+  background: #f7df1e;
+}
+pre[data-language="java"]::before {
+  content: "java";
+  background: #a9b7c6;
+}
+pre[data-language="python"]::before {
+  content: "python";
+  background: #f6ad54;
+}
+
+.gatsby-resp-image-figcaption {
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+  font-size: small;
+}
+
+pre code span.mtk3 {
+  color: orange;
+}
+div#gatsby-focus-wrapper span.mtk3 {
+  color: orange;
+}
+.dark-default-dark .mtk3 {
+  color: orange;
+}
+
+blockquote > blockquote {
+  font-size: small;
+  border-left: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.vscode-highlight-code .vscode-highlight-line span.mtk3 {
+  color: blue;
+}
+div#gatsby-focus-wrapper span > span.mtk3 {
+  color: blue;
+}
+
+.mtk3 {
+  color: blue;
+}
+
+span > .mtk3 {
+  color: blue;
+}
+
+.dark-default-dark .vscode-highlight-code .vscode-highlight-line span.mtk3 {
+  color: blue;
+}
+.centered_image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none !important;
+}
+/*https://stackoverflow.com/questions/255170/markdown-and-image-alignment
+*/
+img[alt$="><"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none !important;
+}
+img[src*="#center"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none !important;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
+
+h3 {
+  margin-bottom: 0;
+  padding-bottom: 2%;
+}
+h4 {
+  margin-top: 1%;
+}
+.sad__word {
+  display: inline-block;
+  font-family: "VT323", monospace;
+  font-size: 1.5em;
+  color: orange;
+}
+
+.tellus__titel {
+  display: inline-flexbox;
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  font-stretch: ultra-expanded;
+  color: orange;
+}
+
+.emo {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.bio__frame {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
+}
+
+.participant_picture img {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.participant_picture figcaption {
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.drakeget_picture {
+  display: inline-flex;
+  width: 20%;
+}

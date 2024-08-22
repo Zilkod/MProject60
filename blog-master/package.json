@@ -1,0 +1,83 @@
+{
+  "name": "gatsby-starter-blog",
+  "private": true,
+  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "core-js": "^3.5.0",
+    "disqus-react": "^1.0.6",
+    "gatsby": "^2.18.11",
+    "gatsby-image": "^2.2.10",
+    "gatsby-plugin-disqus": "^1.1.2",
+    "gatsby-plugin-feed": "^2.3.7",
+    "gatsby-plugin-google-analytics": "^2.1.8",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.2.6",
+    "gatsby-plugin-offline": "^2.2.7",
+    "gatsby-plugin-react-helmet": "^3.1.4",
+    "gatsby-plugin-sharp": "^2.2.13",
+    "gatsby-plugin-sitemap": "^2.2.9",
+    "gatsby-plugin-typography": "^2.3.3",
+    "gatsby-remark-copy-linked-files": "^2.1.7",
+    "gatsby-remark-embed-video": "^2.0.0",
+    "gatsby-remark-emojis": "^0.3.2",
+    "gatsby-remark-highlights": "^1.3.4",
+    "gatsby-remark-images": "^3.1.13",
+    "gatsby-remark-katex": "^3.1.8",
+    "gatsby-remark-prismjs": "^3.3.6",
+    "gatsby-remark-responsive-iframe": "^2.2.5",
+    "gatsby-remark-smartypants": "^2.1.3",
+    "gatsby-remark-vscode": "^1.1.2",
+    "gatsby-source-filesystem": "^2.1.11",
+    "gatsby-transformer-remark": "^2.6.22",
+    "gatsby-transformer-sharp": "^2.2.7",
+    "i": "^0.3.7",
+    "katex": "^0.10.2",
+    "npm": "^6.14.6",
+    "prismjs": "^1.27.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "react-typography": "^0.16.19",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75",
+    "typography": "^0.16.19",
+    "typography-theme-doelger": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-moraga": "^0.16.19",
+    "typography-theme-parnassus": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "xxxxx": "^1.0.3"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  }
+}
